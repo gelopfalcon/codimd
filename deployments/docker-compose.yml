@@ -4,7 +4,7 @@ services:
     image: postgres:11.6-alpine
     environment:
       - POSTGRES_USER=codimd
-      - POSTGRES_PASSWORD=change_password
+      - POSTGRES_PASSWORD=falcon
       - POSTGRES_DB=codimd
     volumes:
       - "database-data:/var/lib/postgresql/data"
@@ -19,7 +19,7 @@ services:
     #   context: ..
     #   dockerfile: ./deployments/Dockerfile
     environment:
-      - CMD_DB_URL=postgres://codimd:change_password@database/codimd
+      - CMD_DB_URL=postgres://codimd:falcon@database/codimd
       - CMD_USECDN=false
     depends_on:
       - database
