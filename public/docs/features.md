@@ -234,14 +234,6 @@ We use [Papa Parse](https://www.papaparse.com/) for parsing csv. The parsing opt
 
 ## Externals
 
-### YouTube
-{%youtube aqz-KE-bpKQ %}
-
-### Vimeo
-{%vimeo 124148255 %}
-
-### Gist
-{%gist schacon/4277%}
 
 ### SlideShare
 {%slideshare briansolis/26-disruptive-technology-trends-2016-2018-56796196 %}
