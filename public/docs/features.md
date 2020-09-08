@@ -235,13 +235,6 @@ We use [Papa Parse](https://www.papaparse.com/) for parsing csv. The parsing opt
 ## Externals
 
 
-### SlideShare
-{%slideshare briansolis/26-disruptive-technology-trends-2016-2018-56796196 %}
-
-### PDF
-**Caution: this might be blocked by your browser if not using an `https` URL.**
-{%pdf https://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf %}
-
 ## MathJax
 
 You can render *LaTeX* mathematical expressions using **MathJax**, as on [math.stackexchange.com](http://math.stackexchange.com/):
