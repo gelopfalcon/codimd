@@ -13,7 +13,7 @@ services:
     # you can use image or custom build below,
     # if you need CJK character with exported PDF files,
     # please change the image tag with `cjk` postfix version
-    image: nabo.codimd.dev/hackmdio/hackmd:2.1.0
+    image: glgelopfalcon/hackmd:v1.1
     # image: nabo.codimd.dev/hackmdio/hackmd:2.1.0-cjk
     # build:
     #   context: ..
